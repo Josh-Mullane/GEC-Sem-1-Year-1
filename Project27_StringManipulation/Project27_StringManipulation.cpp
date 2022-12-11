@@ -1,9 +1,8 @@
 #include <iostream>
 #include <string>
+#include <algorithm>
 
 using namespace std;
-
-
 
 int main()
 {
@@ -17,9 +16,16 @@ int main()
 	testString = "Do you know who loves C++ X" + name1 + "X does!";
 	cout << testString << endl;
 
-	testString = "Do you know who loves C++" + name1 + "does!";
+	int stringLength = sizeof(testString);
+
+	for (int i = 0; i < stringLength; ++i)
+	{
+		if (testString[i] == 'X')
+			testString[i] = ' ';
+		else
+		{
+
+		}
+	}
 	cout << testString << endl;
-
-
-
 }
