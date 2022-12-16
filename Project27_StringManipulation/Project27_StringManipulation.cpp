@@ -22,6 +22,8 @@ int main()
 		if (testString[i] == 'X')
 			testString[i] = NULL;
 
+	cout << testString << endl;
+
 	lengthLabel:
 	cout << "Enter a longer name" << endl;
 	getline(cin, name2);
