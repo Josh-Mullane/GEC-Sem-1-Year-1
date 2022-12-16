@@ -6,9 +6,9 @@ int main()
 
 {
 
-	int count = 26;
+	int count = 3;
 
-	for(int i = 1; i < count; i++)
+	for(int i = 0; i < count; i++)
 	{
 
 		cout << i;
