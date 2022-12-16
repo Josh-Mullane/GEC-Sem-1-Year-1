@@ -1,4 +1,5 @@
 #include <iostream>
+#include <Windows.h>
 using namespace std;
 
 int main()
@@ -30,5 +31,9 @@ int main()
             goAgain = false;
         }
     }
+    cout << "Goodbye." << endl;
+    cin.get();
+    exit(0);
+
 }
 
